@@ -4,17 +4,16 @@ import os
 def load_descriptions():
     """
     Load guest descriptions from a text file.
-    Args:
-        file_path (str): Path to the text file.
-    Returns:
-        list: List of guest descriptions.
     """
     guest_descriptions = []
-    with open('guest_descriptions.txt', 'r') as file:
-        for line in file:
-            guest_descriptions.append(line)
-    return guest_descriptions
+    try:
+        with open('guest_descriptions.txt', 'r') as file:
+            for line in file:
+                guest_descriptions.append(line)
+    except FileNotFoundError:
+        print("Error: File 'guest_descriptions.txt' not found.")
 
+    return guest_descriptions
 
 
 def grid_per_guest():
