@@ -1,6 +1,7 @@
 # Find_the_guest_BINGO
 
-Generate printable grids for the game "Find the Guest -- BINGO". Each grid has a size of 5x5. Each entry of the grid has a sentence that describes a guest of yours or a person in general. The grids differ from one another, but they have many questions in common.
+Generate printable grids for the game "Find the Guest -- BINGO". Each grid has a size of 5x5. Each entry of the grid has a sentence that describes a guest of yours or a person in general :-) 
+The grids differ from one another, but they have many questions in common.
 
 ## Prerequisites
 - Python (any version 3.x)
@@ -15,7 +16,7 @@ Download the files below and save them in a folder on your computer.
 - `generate_latex_files.py`: Python script to generate the LaTeX files for the game grids.
 - `main.tex`: LaTeX template file for the main document.
 
-### Step 2: Being creative time!
+### Step 2: Creative time!
 Think of descriptive sentences for your guests. Update the text file "guest_descriptions" and customize it according to your friends. The minimum number of descriptions is 26, but it is recommended to have more than 30 to ensure substantial differences between each grid.
 
 ### Step 3: Python time
